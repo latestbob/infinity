@@ -1,0 +1,176 @@
+.mainsection{
+    width: 100%;
+    height: 90vh;
+    
+    margin:0px;
+}
+
+.content{
+    background-color: white;
+    height: inherit;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+
+.contenttwo{
+  
+    background-image: url("https://res.cloudinary.com/edifice-solutions/image/upload/v1699822316/bg_madyxo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    width: 90px;
+}
+
+.head{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.myinput{
+    height: 60px;
+    background-color: #f6f6f9;
+    border: 1px solid grey;
+    width:90%;
+    margin-top: 20px;
+}
+
+.link{
+    color:#6138f5;
+
+}
+
+.para{
+    font-size:14px;
+    margin-top: 20px;
+}
+
+.mybtn{
+    font-size:16px;
+    font-weight: 600;
+    color:white;
+    background-color: #6138f5;
+    padding:17px 30px;
+    margin-top: 35px;
+}
+
+.downdiv{
+    margin-top: 50px;
+    width: 90%;
+
+    min-height: 300px;
+}
+
+.linediv{
+    padding:8px 5px;
+    border-bottom: 0.6px solid rgb(149, 149, 149);
+}
+.linediv:hover{
+    background-color: rgb(247, 246, 246);
+}
+
+.myspan{
+    font-size:18px;
+  float: right;
+  font-weight: 300;
+}
+
+.small{
+    color:rgb(185, 185, 185);
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+.flexdiv{
+   margin-top: 15px;
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-bottom: 20px;
+}
+
+.flexlink{
+    color:black;
+    font-size:14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.flexlink:hover{
+    
+    text-decoration: none;
+    color:black;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footpara{
+    color:white;
+    font-size:13px;
+}
+
+.smallest{
+    color:#B7023c;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .head{
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .downdiv{
+        margin-top: 50px;
+        width: 90%;
+    
+        height: 600px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .flexdiv{
+        margin-top: 130px;
+     
+       display: block;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 70px;
+    
+     }
+
+     .flexlink{
+         display: block;
+        color:black;
+        font-size:14px;
+        font-weight: 400;
+        text-decoration: none;
+        text-align: center;
+        padding-top:13px;
+        
+    }
+
+    .downpara{
+        font-size:14px;
+    }
+
+    .small{
+        display: none;
+    }
+
+}
