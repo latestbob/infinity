@@ -13,6 +13,51 @@
     padding-right: 70px;
 }
 
+.input{
+    width:90%;
+    margin: 0px;
+    height: 50px;
+    background-color: #f6f6f9;
+  border:none;
+  
+}
+
+.forgot{
+    font-weight: 700;
+    font-size: 17px;
+    color: #6138f5;
+
+    
+}
+
+.checkspan{
+    color:black;
+    font-weight: 400;
+    font-size:16px;
+}
+
+.lastlink{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.lastlink:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.endspan{
+    color:#666666;
+    font-weight: bold;
+}
+.checkbox{
+    width: 20px; /* Adjust this value to increase or decrease the size */
+  height: 20px; 
+}
+
 .contenttwo{
   
     background-image: url("https://res.cloudinary.com/edifice-solutions/image/upload/v1699822316/bg_madyxo.png");
@@ -36,6 +81,19 @@
     border: 1px solid grey;
     width:90%;
     margin-top: 20px;
+}
+
+.myinputtwo{
+    height: 60px;
+    background-color: #f6f6f9;
+    border: 1px solid grey;
+    width:90%;
+    margin-top: 20px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .link{

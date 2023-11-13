@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import Home from './home';
+import Secure from './secure';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}/>
+          <Route path="/secure" element={<Secure />}/>
         
 
 
